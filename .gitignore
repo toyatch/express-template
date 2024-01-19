@@ -3,3 +3,4 @@
 !.gitignore
 !webpack.config.js
 !jest.config.js
+!.eslintrc.js
