@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "dev": "node -r @swc-node/register src/index.ts",
+    "build": "yarn webpack",
+    "test": "yarn jest",
+    "lint": "yarn eslint src/**/{*.js,*.ts}"
+  },
   "devDependencies": {
     "@swc-node/register": "^1.6.8",
     "@swc/cli": "^0.1.63",
